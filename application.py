@@ -9,7 +9,7 @@ app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
 
     html.Div(children='''
-        This is Dash running on Azure App Service.
+        This is a Dash App running on a dev branch deployed using Docker and Azure App Service.
     '''),
 
     dcc.Graph(
